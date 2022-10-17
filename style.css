@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
 
 * {
     margin: 0;
@@ -56,6 +57,7 @@ body {
     color: white;
     font-family: 'Merriweather', serif;
     text-align: center;
+    font-size: 3.2rem;
 }
 .left-container a {
     color: white;
@@ -64,4 +66,27 @@ body {
 .right-container{
     width: calc(100% / 3 * 2);
     height: 100%;
+}
+
+.right-top,
+.right-bottom {
+    background-color: #E5E7EB;
+    height: 35%;
+}
+
+.right-middle {
+    background-color: white;
+    height: 30%;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 20rem;
 }

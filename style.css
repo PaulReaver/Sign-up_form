@@ -149,6 +149,10 @@ input {
     border-style: solid;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 input:focus {

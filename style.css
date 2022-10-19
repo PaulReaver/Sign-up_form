@@ -176,3 +176,13 @@ label {
     font-weight: bold;
     color: grey;
 }
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    outline: none;
+    border-color: red;
+}
+
+input:not(:focus):not(:placeholder-shown):valid {
+    outline: none;
+    border-color: green;
+}

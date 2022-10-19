@@ -158,7 +158,7 @@ input {
 
 input:focus {
     outline: none;
-    border-color: blue;
+    border-color: lightblue;
     box-shadow: 0 4px 8px lightgray;
 }
 

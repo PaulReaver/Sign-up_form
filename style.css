@@ -92,6 +92,7 @@ body {
 .right-middle>h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
+    margin-bottom: 8px;
 }
 
 .right-top {
@@ -163,11 +164,11 @@ input:focus {
 
 .form-row {
     display: flex;
-    gap: 10rem;
+    gap: 5rem;
 }
 
 .group {
-    margin: 10px;
+    margin: 8px 0px;
 }
 
 label {
